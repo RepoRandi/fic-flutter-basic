@@ -1,4 +1,4 @@
-# project_flutter_pertama
+# FIC Batch 2 -  Gmeet 2
 
 A new Flutter project.
 
