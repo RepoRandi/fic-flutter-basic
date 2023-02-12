@@ -16,18 +16,18 @@ class GridViewWidget extends StatelessWidget {
           children: [
             Expanded(
               child: GridView.count(
-                crossAxisCount: 2,
+                crossAxisCount: 3,
                 childAspectRatio: 185 / 243,
                 mainAxisSpacing: 16,
                 crossAxisSpacing: 16,
                 children: [
                   ...List.generate(
-                    6,
+                    16,
                     (index) => Container(
                       height: 300,
                       width: double.infinity,
                       decoration: BoxDecoration(
-                        color: Colors.blue,
+                        color: index % 2 == 0 ? Colors.black54 : Colors.pink,
                         borderRadius: BorderRadius.circular(20),
                         boxShadow: [
                           BoxShadow(
@@ -36,6 +36,9 @@ class GridViewWidget extends StatelessWidget {
                             blurRadius: 15.0,
                           )
                         ],
+                      ),
+                      child: Center(
+                        child: Text('${index + 1}'),
                       ),
                     ),
                   ),
