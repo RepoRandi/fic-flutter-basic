@@ -1,4 +1,4 @@
-# Flutter Intensive Club Batch 2 - Gmeet 4 
+# Flutter Intensive Club Batch 2 - Gmeet 2 
 
 A new Flutter project.
 
